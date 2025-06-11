@@ -7,7 +7,7 @@ export default function Navbar() {
   const navLinks = ["SOLUTIONS", "PROVIDERS", "ABOUT US", "CONTACT", "GET QUOTE"];
   return (
     <header className="w-full bg-[#FFFFFF] py-8 shadow-sm fixed top-0 z-20">
-      <div className=" px-5 lg:px-20 xl:px-40 flex items-center justify-between">
+      <div className=" px-5 lg:px-10 xl:px-20 2xl:px-40  flex items-center justify-between">
         {/* Logo */}
           <Image className='w-[124px] h-[24px] lg:h-[40]' src="/logo.svg" alt="ProCare Logo" width={100} height={100} />
 

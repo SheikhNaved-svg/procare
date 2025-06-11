@@ -5,20 +5,16 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundImage: "url(/herobackground.svg)", minHeight: "300px" }}
-      className=" h-[691px] md:h-[421px] lg:h-[691px] flex justify-center lg:px-36 md:mt-[87px] lg:mt-[100px]  max-md:h-full w-full bg-cover bg-center "
+      className=" h-[691px] md:h-[421px] lg:h-[691px] flex justify-center lg:pr-36 lg:pl-10 xl:px-36 md:mt-[87px] lg:mt-[100px]  max-md:h-full w-full bg-cover bg-center "
     >
-    <div className='w-full max-w-screen-xl flex flex-col-reverse md:flex-row mt-10 md:mt-0 lg:mt-10'>
+    <div className='w-full max-w-screen-2xl flex flex-col-reverse md:flex-row mt-10 md:mt-0 lg:mt-10'>
     {/*left container*/}
     <div className='w-full mt-7 md:mt-0 flex flex-col-reverse md:flex-col items-start md:items-end lg:w-[50%]'>
         <Image className='w-full mt-10 md:w-[329px] md:h-[239px] lg:w-[693px] lg:h-[502px]' src="/heroimage.svg" alt='image' width={100} height={100} />
-         <LearnMoreButton/>
-         {/* Button 
-          <button className="bg-[#7A0000] md:mt-10 lg:mt-0 text-white ml-5 md:ml-0 px-8 py-3 text-[12px] font-bold hover:bg-[#5c0c0c]">
-            LEARN MORE
-          </button>*/}
+        <LearnMoreButton/>
     </div>
     {/*right container*/}
-    <div className='w-full px-5 md:px-0 flex flex-col gap-10 md:pl-10 lg:pl-20 pt-20  md:pt-10 lg:w-[50%]'>
+    <div className='w-full px-5 md:px-0 flex flex-col gap-10 md:pl-10 xl:pl-20 pt-20  md:pt-10 lg:w-[50%]'>
         {/*text*/}
         <div className='w-full'>
         <h3 className="text-[14px] md:text-[16px] font-semibold leading-[100%] text-[#8E110F]  mb-5">
@@ -37,7 +33,7 @@ const Hero = () => {
         {/*images*/}
         <div className='w-full  z-10 relative'>
             <Image
-            className='absolute w-[80%] md:w-[50%] lg:w-[80%] right-0 hidden md:block'
+            className='absolute w-[80%] md:w-[165px] lg:w-[60%] xl:w-[358px] right-0 hidden md:block'
              src='/heroimage2.svg' alt='image2' width={100} height={100} />
              <Image
             className='absolute left-[110%]  hidden lg:block'

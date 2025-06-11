@@ -33,9 +33,9 @@ const solutions = [
 export default function Aresolution() {
   return (
     <div className='flex justify-center'>
-    <section className="px-4 lg:px-10 xl:px-20 max-w-screen-2xl mt-[400px]">
-      <p className="text-[#8E110F] leading-[100%] font-semibold  mb-5 uppercase tracking-wide">our solutions</p>
-      <h2 className="text-[54px] text-[#414143] leading-[100%] font-semibold  mb-10">Consider it done</h2>
+    <section className="px-4 lg:px-10 xl:px-20 max-w-screen-2xl mt-[400px] md:mt-[300px] lg:mt-[350px]">
+      <p className="text-[#8E110F] leading-[100%] font-semibold text-[14px] md:text-[16px]  mb-5 uppercase tracking-wide">our solutions</p>
+      <h2 className="text-[36px] lg:text-[54px] text-[#414143] leading-[100%] font-semibold  mb-16">Consider it done</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
          {solutions.map((item, index) => (
