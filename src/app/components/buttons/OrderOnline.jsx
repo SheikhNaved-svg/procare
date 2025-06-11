@@ -15,7 +15,7 @@ export default function OrderOnline() {
         backgroundColor: hovered ? '#AD0000' : '#800000', // lighter on hover
       }}
       transition={{ duration: 0.3 }}
-      className="  text-sm  relative overflow-hidden text-[#FFFFFF] tracking-[0.18em] leading-[20px] px-4 py-3 text-[14px] font-bold  "
+      className="  text-[14px]  relative overflow-hidden text-[#FFFFFF] tracking-[0.18em] leading-[20px] px-4 py-3 font-bold  "
     >
       <div className="flex items-center gap-2 justify-center">
         ORDER ONLINE

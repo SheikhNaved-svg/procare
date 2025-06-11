@@ -11,3 +11,8 @@ body {
   font-family: "Inter Regular";
   font-optical-sizing: auto;
 }
+
+@theme {
+  --breakpoint-4xl: 2500px;
+  --breakpoint-3xl: 1920px;
+}
